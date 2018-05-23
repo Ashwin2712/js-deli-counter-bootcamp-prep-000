@@ -18,11 +18,16 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine() {
-  if (katzDeliLine.length === 0) {
+function currentLine(katzDeliLine) {
+  var name = []
+  if (katzDeliLine.length == 0) {
     return 'The line is currently empty.'
   }
   else {
+    for (var i = 0, p = katzDeliLine.length; p < i; i++) {
+      name.push()
+    }
+    name = 
     return 'The line is currently: '+katzDeliLine.index+'. '+katzDeliLine[katzDeliLine.index]
   }
 }
