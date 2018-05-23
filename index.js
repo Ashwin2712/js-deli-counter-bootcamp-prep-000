@@ -13,7 +13,7 @@ function nowServing() {
     name = katzDeliLine[0]
     katzDeliLine.shift()
     return 'Currently serving '+name+'.'
-    
+
   }
   else {
     return 'There is nobody waiting to be served!'
