@@ -13,7 +13,6 @@ function nowServing(katzDeliLine) {
   }
   else {
   name = katzDeliLine[0]
-  
   katzDeliLine.shift()
   return 'Currently serving '+name+'.'
   }
