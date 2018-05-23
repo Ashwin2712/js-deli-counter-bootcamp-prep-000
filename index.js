@@ -17,7 +17,6 @@ function nowServing() {
     katzDeliLine.shift()
     return 'Currently serving '+name+'.'
   }
-  return katzDeliLine
 }
 
 function currentLine() {
