@@ -24,10 +24,10 @@ function currentLine(katzDeliLine) {
     return 'The line is currently empty.'
   }
   else {
-    for (var i = 0, p = katzDeliLine.length; p < i; i++) {
-      name.push()
+    for (var i = 0; i < katzDeliLine.length; i++) {
+      name.push(i+1+'. '+katzDeliLine[i])
     }
-    name = 
+    name =
     return 'The line is currently: '+katzDeliLine.index+'. '+katzDeliLine[katzDeliLine.index]
   }
 }
